@@ -10,4 +10,6 @@ var favoriteSchema = new Schema({
   poster: String
 });
 
-var Favorites = mongoose.model('')
+var Favorites = mongoose.model('Favorites', favoriteSchema);
+
+module.exports = Favorites;
