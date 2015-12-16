@@ -1,0 +1,8 @@
+<form ng-submit="searchMovie(movieTitle)">
+  <input type="text" ng-model="movieTitle">
+  <input type="submit">
+</form>
+
+<ul>
+  <li ng-repeat="movie in movies"></li>
+</ul>
