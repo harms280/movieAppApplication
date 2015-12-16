@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
-favoriteSchema = mongoose.Schema({
+var favoriteSchema = new Schema({
   title: {
     type: String,
     required: true},
@@ -9,3 +10,4 @@ favoriteSchema = mongoose.Schema({
   poster: String
 });
 
+var Favorites = mongoose.model('')
